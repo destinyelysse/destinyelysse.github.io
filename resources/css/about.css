@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Montserrat:wght@100;200&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #242526;
+    background-size: cover;
+    color: #e0c1c7;
+}
+
+header {
+    color: #e0c1c7;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Josefin Slab';
+}
+
+h2 {
+    font-size: 28px;
+}
