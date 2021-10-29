@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Montserrat:wght@100;200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #242526;
+    color: #e0c1c7;
+    font-family: Montserrat;
+}
+
+h1, h2, .swatchlabel {
+    text-align: center;
+    margin: 10px;
+}
+
+hr {
+    border: 1px dotted #e0c1c7;
+    margin: 10px;
+}
+
+.palettelabel {
+    margin-left: 10px;
+}
+.palettetitle, .palettetype, .palettecollection {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.palettetitle {
+    text-transform: uppercase;
+}
+
+.color {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.colorswatch {
+    width: 100px;
+    height: 100px;
+}
+
+#swatch1 {
+    background-color: #AAAAAA;
+    border: 1px solid black;
+}
+
+#swatch2 {
+    background-color: #BBBBBB;
+}
