@@ -18,6 +18,9 @@ let palettes = [];
 let grayPalette = new Palette ("Grays", "monochrome", "basics", ['#111111', '#222222', '#333333', '#444444', '#555555','#666666', '#AAAAAA', '#BBBBBB', '#CCCCCC', '#DDDDDD', '#EEEEEE', '#FFFFFF']);
 palettes.push(grayPalette);
 
+let swPalette = new Palette ("Southwest Airlines", "triadic", "brands", ['#141C6D','#FDB31F','#B60017']);
+palettes.push(swPalette);
+
 function renderPalette(palette) {
 
     let line = document.createElement("hr");
