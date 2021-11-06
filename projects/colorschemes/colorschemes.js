@@ -21,6 +21,9 @@ palettes.push(grayPalette);
 let swPalette = new Palette ("Southwest Airlines", "triadic", "brands", ['#141C6D','#FDB31F','#B60017']);
 palettes.push(swPalette);
 
+let googlePalette = new Palette("Google", "tetradic", "brands", ["#3369E7", "#D92B28", "#EEA90D", "#2A953D"]);
+palettes.push(googlePalette);
+
 function renderPalette(palette) {
 
     let line = document.createElement("hr");
